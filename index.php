@@ -1,6 +1,7 @@
 <?php
 
 include("infra/db/connect.php");
+//include seria para colocar a ligação do codigo de outra pagina nessa pagina
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
